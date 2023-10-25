@@ -1,0 +1,30 @@
+[9.932s] Invoking command in '/home/riser14/ros_ws/src/py_pubsub': PYTHONPATH=/home/riser14/ros_ws/build/py_pubsub/prefix_override:/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/riser14/ros_ws/build/py_pubsub/build install --record /home/riser14/ros_ws/build/py_pubsub/install.log --single-version-externally-managed
+[11.675s] running egg_info
+[11.680s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[11.682s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[11.683s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[11.685s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[11.685s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[11.967s] listing git files failed - pretending there aren't any
+[12.835s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[12.835s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[12.836s] running build
+[12.836s] running build_py
+[12.838s] copying py_pubsub/pose_subscriber.py -> /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub
+[12.840s] running install
+[12.843s] running install_lib
+[12.858s] copying /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub/pose_subscriber.py -> /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[12.866s] byte-compiling /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[12.873s] running install_data
+[12.875s] running install_egg_info
+[12.877s] removing '/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[12.881s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[12.885s] running install_scripts
+[13.070s] Installing control_mpc script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[13.070s] Installing control_nmpc script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[13.071s] Installing follow script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[13.071s] Installing listener script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[13.071s] Installing pid script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[13.072s] Installing pose_sub script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[13.072s] writing list of installed files to '/home/riser14/ros_ws/build/py_pubsub/install.log'
+[13.227s] Invoked command in '/home/riser14/ros_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/riser14/ros_ws/build/py_pubsub/prefix_override:/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/riser14/ros_ws/build/py_pubsub/build install --record /home/riser14/ros_ws/build/py_pubsub/install.log --single-version-externally-managed

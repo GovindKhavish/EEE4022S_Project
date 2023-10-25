@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages",
+        "/home/riser14/path_ws/build/turtlebot3_odom_subscriber",
+        "/home/riser14/path_ws/install/turtlebot3_odom_subscriber/lib/python3.10/site-packages",
+        "/home/riser14/ros2_ws/build/rtabmap_python",
+        "/home/riser14/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages",
+        "/home/riser14/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages",
+        "/home/riser14/ros2_ws/build/my_robot_controller",
+        "/home/riser14/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages",
+        "/home/riser14/path_ws/build/turtlebot3_odom_subscriber",
+        "/home/riser14/path_ws/install/turtlebot3_odom_subscriber/lib/python3.10/site-packages",
+        "/home/riser14/ros2_ws/build/rtabmap_python",
+        "/home/riser14/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages",
+        "/home/riser14/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages",
+        "/home/riser14/ros2_ws/build/my_robot_controller",
+        "/home/riser14/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,40 @@
+[2.352s] Invoking command in '/home/riser14/ros_ws/src/py_pubsub': PYTHONPATH=/home/riser14/ros_ws/build/py_pubsub/prefix_override:/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/riser14/ros_ws/build/py_pubsub/build install --record /home/riser14/ros_ws/build/py_pubsub/install.log --single-version-externally-managed
+[2.734s] running egg_info
+[2.734s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.735s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.735s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.735s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.736s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.811s] listing git files failed - pretending there aren't any
+[3.426s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.446s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.447s] running build
+[3.447s] running build_py
+[3.447s] copying py_pubsub/plot_on_map.py -> /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub
+[3.448s] copying py_pubsub/waypoint_follower.py -> /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub
+[3.449s] running install
+[3.449s] running install_lib
+[3.451s] copying /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub/plot_on_map.py -> /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.451s] copying /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub/waypoint_follower.py -> /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.452s] byte-compiling /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/plot_on_map.py to plot_on_map.cpython-310.pyc
+[3.454s] byte-compiling /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[3.455s] running install_data
+[3.456s] running install_egg_info
+[3.458s] removing '/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.458s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[3.476s] running install_scripts
+[3.503s] Installing camera_record script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.516s] Installing capture script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.524s] Installing compare_feature script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.538s] Installing compare_mean_error script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.550s] Installing control_mpc script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.566s] Installing control_nmpc script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.582s] Installing drift_measure script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.613s] Installing full_record script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.648s] Installing listener script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.666s] Installing pid script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.686s] Installing pose_sub script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.754s] Installing visualisation script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.754s] Installing waypoint follow script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[3.755s] writing list of installed files to '/home/riser14/ros_ws/build/py_pubsub/install.log'
+[3.981s] Invoked command in '/home/riser14/ros_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/riser14/ros_ws/build/py_pubsub/prefix_override:/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/riser14/ros_ws/build/py_pubsub/build install --record /home/riser14/ros_ws/build/py_pubsub/install.log --single-version-externally-managed

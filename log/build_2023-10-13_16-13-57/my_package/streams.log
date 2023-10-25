@@ -1,0 +1,22 @@
+[2.726s] Invoking command in '/home/riser14/ros_ws/src/my_package': PYTHONPATH=/home/riser14/ros_ws/build/my_package/prefix_override:/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/riser14/ros_ws/build/my_package/build install --record /home/riser14/ros_ws/build/my_package/install.log --single-version-externally-managed
+[3.084s] running egg_info
+[3.085s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[3.085s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[3.085s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[3.085s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[3.086s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[3.141s] listing git files failed - pretending there aren't any
+[3.762s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.778s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.778s] running build
+[3.778s] running build_py
+[3.778s] running install
+[3.779s] running install_lib
+[3.801s] running install_data
+[3.802s] running install_egg_info
+[3.803s] removing '/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.817s] Copying ../../build/my_package/my_package.egg-info to /home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[3.818s] running install_scripts
+[3.842s] Installing my_node script to /home/riser14/ros_ws/install/my_package/lib/my_package
+[3.843s] writing list of installed files to '/home/riser14/ros_ws/build/my_package/install.log'
+[3.882s] Invoked command in '/home/riser14/ros_ws/src/my_package' returned '0': PYTHONPATH=/home/riser14/ros_ws/build/my_package/prefix_override:/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/riser14/ros_ws/build/my_package/build install --record /home/riser14/ros_ws/build/my_package/install.log --single-version-externally-managed

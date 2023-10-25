@@ -1,0 +1,36 @@
+[1.653s] Invoking command in '/home/riser14/ros_ws/src/py_pubsub': PYTHONPATH=/home/riser14/ros_ws/build/py_pubsub/prefix_override:/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/riser14/ros_ws/build/py_pubsub/build install --record /home/riser14/ros_ws/build/py_pubsub/install.log --single-version-externally-managed
+[2.007s] running egg_info
+[2.009s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.009s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.009s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.009s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.009s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.067s] listing git files failed - pretending there aren't any
+[2.259s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.260s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.260s] running build
+[2.260s] running build_py
+[2.261s] copying py_pubsub/camera_recording.py -> /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub
+[2.262s] running install
+[2.263s] running install_lib
+[2.265s] copying /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub/camera_recording.py -> /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[2.266s] byte-compiling /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/camera_recording.py to camera_recording.cpython-310.pyc
+[2.267s] running install_data
+[2.268s] running install_egg_info
+[2.270s] removing '/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[2.270s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[2.271s] running install_scripts
+[2.296s] Installing camera_record script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.296s] Installing capture script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.297s] Installing compare_feature script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.297s] Installing compare_mean_error script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.297s] Installing control_mpc script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.297s] Installing control_nmpc script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.298s] Installing drift_measure script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.298s] Installing full_record script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.298s] Installing listener script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.298s] Installing pid script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.298s] Installing pose_sub script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.298s] Installing waypoint follow script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub
+[2.299s] writing list of installed files to '/home/riser14/ros_ws/build/py_pubsub/install.log'
+[2.416s] Invoked command in '/home/riser14/ros_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/riser14/ros_ws/build/py_pubsub/prefix_override:/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/riser14/ros_ws/build/py_pubsub/build install --record /home/riser14/ros_ws/build/py_pubsub/install.log --single-version-externally-managed

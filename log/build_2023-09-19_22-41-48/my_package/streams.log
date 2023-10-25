@@ -1,0 +1,38 @@
+[3.465s] Invoking command in '/home/riser14/ros_ws/src/my_package': PYTHONPATH=/home/riser14/ros_ws/build/my_package/prefix_override:/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/riser14/ros_ws/build/my_package/build install --record /home/riser14/ros_ws/build/my_package/install.log --single-version-externally-managed
+[4.697s] running egg_info
+[4.700s] creating ../../build/my_package/my_package.egg-info
+[4.702s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[4.703s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[4.704s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[4.704s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[4.704s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[4.705s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[4.930s] listing git files failed - pretending there aren't any
+[5.371s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[5.374s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[5.374s] running build
+[5.375s] running build_py
+[5.375s] creating /home/riser14/ros_ws/build/my_package/build
+[5.376s] creating /home/riser14/ros_ws/build/my_package/build/lib
+[5.377s] creating /home/riser14/ros_ws/build/my_package/build/lib/my_package
+[5.377s] copying my_package/my_node.py -> /home/riser14/ros_ws/build/my_package/build/lib/my_package
+[5.377s] copying my_package/__init__.py -> /home/riser14/ros_ws/build/my_package/build/lib/my_package
+[5.377s] running install
+[5.378s] running install_lib
+[5.381s] creating /home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package
+[5.382s] copying /home/riser14/ros_ws/build/my_package/build/lib/my_package/my_node.py -> /home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package
+[5.382s] copying /home/riser14/ros_ws/build/my_package/build/lib/my_package/__init__.py -> /home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package
+[5.384s] byte-compiling /home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[5.385s] byte-compiling /home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[5.385s] running install_data
+[5.388s] creating /home/riser14/ros_ws/install/my_package/share/ament_index
+[5.388s] creating /home/riser14/ros_ws/install/my_package/share/ament_index/resource_index
+[5.389s] creating /home/riser14/ros_ws/install/my_package/share/ament_index/resource_index/packages
+[5.389s] copying resource/my_package -> /home/riser14/ros_ws/install/my_package/share/ament_index/resource_index/packages
+[5.390s] copying package.xml -> /home/riser14/ros_ws/install/my_package/share/my_package
+[5.390s] running install_egg_info
+[5.392s] Copying ../../build/my_package/my_package.egg-info to /home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[5.396s] running install_scripts
+[5.468s] Installing my_node script to /home/riser14/ros_ws/install/my_package/lib/my_package
+[5.470s] writing list of installed files to '/home/riser14/ros_ws/build/my_package/install.log'
+[5.557s] Invoked command in '/home/riser14/ros_ws/src/my_package' returned '0': PYTHONPATH=/home/riser14/ros_ws/build/my_package/prefix_override:/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/riser14/ros_ws/build/my_package/build install --record /home/riser14/ros_ws/build/my_package/install.log --single-version-externally-managed

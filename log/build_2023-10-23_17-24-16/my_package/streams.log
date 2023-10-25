@@ -1,0 +1,22 @@
+[8.824s] Invoking command in '/home/riser14/ros_ws/src/my_package': PYTHONPATH=/home/riser14/ros_ws/build/my_package/prefix_override:/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/riser14/ros_ws/build/my_package/build install --record /home/riser14/ros_ws/build/my_package/install.log --single-version-externally-managed
+[9.951s] running egg_info
+[9.954s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[9.954s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[9.954s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[9.954s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[9.954s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[10.137s] listing git files failed - pretending there aren't any
+[10.717s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[10.723s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[10.725s] running build
+[10.725s] running build_py
+[10.727s] running install
+[10.729s] running install_lib
+[10.736s] running install_data
+[10.742s] running install_egg_info
+[10.773s] removing '/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[10.774s] Copying ../../build/my_package/my_package.egg-info to /home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[10.780s] running install_scripts
+[10.879s] Installing my_node script to /home/riser14/ros_ws/install/my_package/lib/my_package
+[10.881s] writing list of installed files to '/home/riser14/ros_ws/build/my_package/install.log'
+[11.084s] Invoked command in '/home/riser14/ros_ws/src/my_package' returned '0': PYTHONPATH=/home/riser14/ros_ws/build/my_package/prefix_override:/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/riser14/ros_ws/build/my_package/build install --record /home/riser14/ros_ws/build/my_package/install.log --single-version-externally-managed

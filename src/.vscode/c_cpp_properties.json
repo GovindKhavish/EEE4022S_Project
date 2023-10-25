@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/riser14/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/riser14/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/riser14/micro_ros_ws/install/micro_ros_agent/include/**",
+        "/home/riser14/ros2_ws/install/rtabmap_conversions/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.001917] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003336] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.003483] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098486] (-) TimerEvent: {}
+[0.199234] (-) TimerEvent: {}
+[0.299953] (-) TimerEvent: {}
+[0.400549] (-) TimerEvent: {}
+[0.501192] (-) TimerEvent: {}
+[0.601805] (-) TimerEvent: {}
+[0.702511] (-) TimerEvent: {}
+[0.803110] (-) TimerEvent: {}
+[0.903834] (-) TimerEvent: {}
+[1.004541] (-) TimerEvent: {}
+[1.105283] (-) TimerEvent: {}
+[1.206159] (-) TimerEvent: {}
+[1.306943] (-) TimerEvent: {}
+[1.407813] (-) TimerEvent: {}
+[1.508588] (-) TimerEvent: {}
+[1.609380] (-) TimerEvent: {}
+[1.710242] (-) TimerEvent: {}
+[1.811041] (-) TimerEvent: {}
+[1.911802] (-) TimerEvent: {}
+[2.012632] (-) TimerEvent: {}
+[2.113527] (-) TimerEvent: {}
+[2.214945] (-) TimerEvent: {}
+[2.315594] (-) TimerEvent: {}
+[2.416334] (-) TimerEvent: {}
+[2.517092] (-) TimerEvent: {}
+[2.617972] (-) TimerEvent: {}
+[2.718697] (-) TimerEvent: {}
+[2.819466] (-) TimerEvent: {}
+[2.920273] (-) TimerEvent: {}
+[3.022941] (-) TimerEvent: {}
+[3.123921] (-) TimerEvent: {}
+[3.224925] (-) TimerEvent: {}
+[3.326067] (-) TimerEvent: {}
+[3.427033] (-) TimerEvent: {}
+[3.527910] (-) TimerEvent: {}
+[3.628670] (-) TimerEvent: {}
+[3.729311] (-) TimerEvent: {}
+[3.830085] (-) TimerEvent: {}
+[3.930854] (-) TimerEvent: {}
+[4.031668] (-) TimerEvent: {}
+[4.132457] (-) TimerEvent: {}
+[4.233196] (-) TimerEvent: {}
+[4.333991] (-) TimerEvent: {}
+[4.434988] (-) TimerEvent: {}
+[4.530872] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/riser14/ros_ws/build/py_pubsub/build', 'install', '--record', '/home/riser14/ros_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/riser14/ros_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_ZA:en', 'USER': 'riser14', 'ROS_PACKAGE_PATH': '/home/riser14/ros2_ws/install/rtabmap_msgs/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/riser14/micro_ros_ws/install/micro_ros_agent/lib:/home/riser14/ros2_ws/install/rtabmap_conversions/lib:/home/riser14/ros2_ws/install/rtabmap_msgs/lib:/home/riser14/ros2_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/riser14', 'OLDPWD': '/home/riser14/ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '34406', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/riser14/ros_ws/install:/home/riser14/path_ws/install:/home/riser14/turtlebot3_ws/install:/home/riser14/micro_ros_ws/install:/home/riser14/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'riser14', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/riser14/ros2_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/riser14/ros2_ws/install/rtabmap_msgs/lib/pkgconfig:/home/riser14/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/riser14/ros2_ws/install/rtabmap/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'riser14', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/riser14/ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/home/riser14/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/riser14-Inspiron-5559:@/tmp/.ICE-unix/1303,unix/riser14-Inspiron-5559:/tmp/.ICE-unix/1303', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5fd3f125_66a1_499b_bf09_bbd633a610ce', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6316A2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/riser14/ros_ws/install/my_package:/home/riser14/path_ws/install/turtlebot3_odom_subscriber:/home/riser14/turtlebot3_ws/install/turtlebot3_simulations:/home/riser14/turtlebot3_ws/install/turtlebot3_gazebo:/home/riser14/turtlebot3_ws/install/turtlebot3_fake_node:/home/riser14/micro_ros_ws/install/micro_ros_agent:/home/riser14/ros2_ws/install/rtabmap_python:/home/riser14/ros2_ws/install/rtabmap_conversions:/home/riser14/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/riser14/ros_ws/build/py_pubsub', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/riser14/ros_ws/build/py_pubsub/prefix_override:/home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages:/home/riser14/ros_ws/install/my_package/lib/python3.10/site-packages:/home/riser14/path_ws/install/turtlebot3_odom_subscriber/lib/python3.10/site-packages:/home/riser14/ros2_ws/build/rtabmap_python:/home/riser14/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/riser14/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/riser14/ros2_ws/build/my_robot_controller:/home/riser14/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/riser14/turtlebot3_ws/install/turtlebot3_simulations:/home/riser14/turtlebot3_ws/install/turtlebot3_gazebo:/home/riser14/turtlebot3_ws/install/turtlebot3_fake_node:/home/riser14/micro_ros_ws/install/micro_ros_agent:/home/riser14/ros2_ws/install/rtabmap_conversions:/home/riser14/ros2_ws/install/rtabmap_msgs:/home/riser14/ros2_ws/install/rtabmap'}, 'shell': False}
+[4.536253] (-) TimerEvent: {}
+[4.640981] (-) TimerEvent: {}
+[4.742559] (-) TimerEvent: {}
+[4.844021] (-) TimerEvent: {}
+[4.945041] (-) TimerEvent: {}
+[5.046026] (-) TimerEvent: {}
+[5.146783] (-) TimerEvent: {}
+[5.247581] (-) TimerEvent: {}
+[5.348384] (-) TimerEvent: {}
+[5.449158] (-) TimerEvent: {}
+[5.549993] (-) TimerEvent: {}
+[5.650770] (-) TimerEvent: {}
+[5.751551] (-) TimerEvent: {}
+[5.852241] (-) TimerEvent: {}
+[5.953068] (-) TimerEvent: {}
+[6.053730] (-) TimerEvent: {}
+[6.154398] (-) TimerEvent: {}
+[6.255241] (-) TimerEvent: {}
+[6.356095] (-) TimerEvent: {}
+[6.456984] (-) TimerEvent: {}
+[6.508271] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[6.510362] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[6.511124] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[6.511972] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[6.512602] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[6.513265] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[6.513779] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[6.514662] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[6.557180] (-) TimerEvent: {}
+[6.658029] (-) TimerEvent: {}
+[6.756116] (py_pubsub) StderrLine: {'line': b"listing git files failed - pretending there aren't any\n"}
+[6.758171] (-) TimerEvent: {}
+[6.858942] (-) TimerEvent: {}
+[6.959705] (-) TimerEvent: {}
+[7.060448] (-) TimerEvent: {}
+[7.161197] (-) TimerEvent: {}
+[7.262131] (-) TimerEvent: {}
+[7.362998] (-) TimerEvent: {}
+[7.370020] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.372897] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.374020] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[7.374677] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[7.375509] (py_pubsub) StdoutLine: {'line': b'creating /home/riser14/ros_ws/build/py_pubsub/build\n'}
+[7.376573] (py_pubsub) StdoutLine: {'line': b'creating /home/riser14/ros_ws/build/py_pubsub/build/lib\n'}
+[7.377368] (py_pubsub) StdoutLine: {'line': b'creating /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[7.378038] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[7.378805] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[7.379359] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[7.380610] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[7.385234] (py_pubsub) StdoutLine: {'line': b'creating /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[7.386238] (py_pubsub) StdoutLine: {'line': b'copying /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[7.387114] (py_pubsub) StdoutLine: {'line': b'copying /home/riser14/ros_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[7.389039] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[7.391559] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[7.392516] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[7.395435] (py_pubsub) StdoutLine: {'line': b'creating /home/riser14/ros_ws/install/py_pubsub/share/ament_index\n'}
+[7.396815] (py_pubsub) StdoutLine: {'line': b'creating /home/riser14/ros_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[7.398057] (py_pubsub) StdoutLine: {'line': b'creating /home/riser14/ros_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[7.398624] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/riser14/ros_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[7.399181] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/riser14/ros_ws/install/py_pubsub/share/py_pubsub\n'}
+[7.399768] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.402543] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/riser14/ros_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[7.409048] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[7.463214] (-) TimerEvent: {}
+[7.509168] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/riser14/ros_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.510815] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/riser14/ros_ws/build/py_pubsub/install.log'\n"}
+[7.563486] (-) TimerEvent: {}
+[7.657490] (py_pubsub) CommandEnded: {'returncode': 0}
+[7.664060] (-) TimerEvent: {}
+[7.739740] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[7.743549] (-) EventReactorShutdown: {}
