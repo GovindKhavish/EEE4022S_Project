@@ -19,24 +19,38 @@ This codebase is not limited to the NMPC controller alone; it offers extensive P
 * ROS2 Humble
 * Python 3.10
 
-### Installing
-
-* 
-
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
+* Startup Gazebo with the Turtlebot3 model
 ```
-code blocks for commands
+ros2 launch turtlebot3_gazebo
+```
+* Launch the manually control commands
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+* Launches Rviz for that speific map
+```
+ros2 launch turtlebo3_navigation2 navigation2.launch.py map:=<Map path>
+```
+* Launches the script for recording odometry and images
+```
+ros2 run py_pubsub full_record
+```
+* Launch the waypoint following script for RPP, MPPI and DWA controllers, which will instantiate robot's intial pose and reference trajectory
+```
+ros2 run py_pubsub waypoint_follower
+```
+* Launch the PID controller script
+```
+ros2 run py_pubsub pid
 ```
 
 ## Help
 
-Note, within the bringup file in the Turtlebot3_nvaigation2 file, the world can be changed to incorprate a custom Gazebo world
-
+Note, within the bringup file in the Turtlebot3_nvaigation2 file, the world can be changed to incorprate a custom Gazebo world. 
+If a custom map is made, save via the following command, 
 ```
-
+ros2 run nav2_map_server map_saver_cli -f <Map Name>
 ```
 
 ## Authors
